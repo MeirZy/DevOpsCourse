@@ -10,5 +10,5 @@ def copywar(source_file, destination_path):
     return;
 
     # call function
-    # copywar( "/home/meirz/.m2/repository/link/otomato/courseProject/1.0-SNAPSHOT/courseProject-1.0-SNAPSHOT.war", "/var/lib/tomcat/webapps" )
+    # copywar( "/home/meirz/jenkins/workspace/CourseProject/target/courseProject.war", "/var/lib/tomcat/webapps" )
 
