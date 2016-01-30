@@ -15,6 +15,5 @@ def main():
 if __name__ == '__main__':
 main()
 
-    # call function
     # arguments: ( "/home/meirz/jenkins/workspace/CourseProject/target/courseProject.war", "/var/lib/tomcat/webapps" )
 
