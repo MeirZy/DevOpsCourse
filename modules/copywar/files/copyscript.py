@@ -15,5 +15,5 @@ def main():
 if __name__ == '__main__':
 main()
 
-    # arguments: ( "/home/meirz/jenkins/workspace/CourseProject/target/courseProject.war", "/var/lib/tomcat/webapps" )
+    # arguments: copyscript.py /home/meirz/jenkins/workspace/CourseProject/target/courseProject.war /var/lib/tomcat/webapps
 
