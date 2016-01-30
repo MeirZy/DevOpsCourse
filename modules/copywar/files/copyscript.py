@@ -1,14 +1,20 @@
 __author__ = 'Mz'
 
+#!/usr/bin/python
+
 import os
+import sys
 
-
-def copywar(source_file, destination_path):
-    # This copy source war file to destination tomcat folder
-    os.system("scp " + source_file + " meirz@websrv.eastus.cloudapp.azure.com:" + destination_path)
+def main():
+ source_file = sys.argv[1]
+ dest_dir = sys.argv[2]    
+ os.system("scp " + source_file + " meirz@websrv.eastus.cloudapp.azure.com:" + dest_dir)
     
-    return;
+ return;
+  
+if __name__ == '__main__':
+main()
 
     # call function
-    # copywar( "/home/meirz/jenkins/workspace/CourseProject/target/courseProject.war", "/var/lib/tomcat/webapps" )
+    # arguments: ( "/home/meirz/jenkins/workspace/CourseProject/target/courseProject.war", "/var/lib/tomcat/webapps" )
 
