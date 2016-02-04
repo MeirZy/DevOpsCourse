@@ -8,8 +8,8 @@ import sys
 def main():
  source_file = sys.argv[1]
  dest_dir = sys.argv[2]    
- os.system("scp " + source_file + " meirz@websrv.eastus.cloudapp.azure.com:" + dest_dir)
-    
+ 
+ os.system("scp " + "meirz@buildsrv.dybetaznhvqetlla1bxv4v3w0c.bx.internal.cloudapp.net:"+ source_file  dest_dir
  return;
   
 if __name__ == '__main__':
